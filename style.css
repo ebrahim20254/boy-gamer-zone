@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     margin: 0px 100px auto;
+     padding-top: 20px;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+}
+.logo-container h3{
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.nav-style{
+       color: lightslategray;
+}
+.logo-container img{
+    width: 86.041px;
+    height: 40px;
+}
+.nav-text-container a{
+    margin-right: 50px;
+    text-decoration: none;
+}
