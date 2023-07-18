@@ -34,3 +34,69 @@ nav{
     margin-right: 50px;
     text-decoration: none;
 }
+/************** nav section done  **************/
+
+/************* play like banner section start now  *************/
+
+.banner-section{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(./images/Group\ 14.png);
+}
+.banner-text h2{
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.banner-text h3{
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.banner-text p{
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: lowercase;
+}
+.btn-primary{
+    padding: 15px 30px;
+    border-radius: 48px;
+    background: #FF42A5 100%;
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.btn-danger{
+    padding: 15px 30px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.banner-img img{
+     width: 100%;
+     height: 600px;
+}
+
+/************* play like banner section end  *************/
