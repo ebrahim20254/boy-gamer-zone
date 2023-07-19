@@ -4,8 +4,8 @@
     padding: 0px;
 }
 nav{
-    background-color: #4EC5F7;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
     
 .nav-container{
@@ -122,8 +122,8 @@ nav{
 
 /************* play like banner section end  *************/
 /*********** We are gamer optional section start now *********/
-.optonal-section{
-    width: 1920px;
+.optional-section{
+    width: 100%;
     height: 600px;
      background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
@@ -280,8 +280,9 @@ nav{
 
 /********* button section start now  **********/
 .button-section{
-     width: 100%;
-     height: 430px;
+     max-width: 1400px;
+     min-height: 400px;
+     margin: 50px auto 0;
 }
 .box-btn{
     padding: 15px 25px;
@@ -291,13 +292,13 @@ nav{
     border-radius: 50px;
     cursor: pointer;
 }
-.box-btn :hover{
+/* .box-btn :hover{
     background-color: #4EC5F7;
     color: red;
     border: 2px solid goldenrod;
     border-radius: 50px;
     padding: 10px 50px;
-}
+} */
 .box-btn p{
     color: #0B0223;
     font-family: Work Sans;
@@ -307,13 +308,20 @@ nav{
     line-height: normal;
 }
 .button-container{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
-    gap: 20px;
-    /* grid-template-rows: repeat(4,1fr); */
+    align-items: center;
 
+}
+.button-container .box-btn :hover{
+    background-color: #4EC5F7;
+    color: red;
+    border: 2px solid goldenrod;
+    border-radius: 50px;
+    padding: 10px 50px;
 }
 /********** button section end  *********/
 

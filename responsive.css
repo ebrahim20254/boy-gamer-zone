@@ -7,5 +7,19 @@
 
     .nav-text-container{
        flex-direction: column;
+
+    }
+    .banner-section{
+        flex-direction: column-reverse;
+        height: 100%;
+        margin-top: 40px;
+   
+    }
+    .optional-section{
+        flex-direction: column-reverse;
+
+    }
+    .optional-img,.optional-text{
+        width: 50%;
     }
 }
