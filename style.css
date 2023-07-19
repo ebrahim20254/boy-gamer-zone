@@ -283,10 +283,12 @@ nav{
     border-radius: 50px;
     cursor: pointer;
 }
-.box-btn :hover{
-    background: blue;
+.box-btn  :hover{
+    background-color: #4EC5F7;
     color: red;
-    border: #F948B2;
+    border: 2px solid goldenrod;
+    border-radius: 50px;
+    padding: 10px 50px;
 }
 .box-btn span{
     color: #0B0223;
@@ -297,9 +299,12 @@ nav{
     line-height: normal;
 }
 .button-container{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
     gap: 20px;
+
 }
 /********** button section end  *********/
 
