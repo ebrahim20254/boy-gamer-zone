@@ -26,4 +26,10 @@
         flex-direction: column;
         grid-template-columns: repeat(1,1fr);
     }
+    .instantly-section{
+        flex-direction: column;
+    }
+    .instantly-img{
+        width: 50%;
+    }
 }
