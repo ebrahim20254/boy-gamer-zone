@@ -26,10 +26,12 @@
         flex-direction: column;
         grid-template-columns: repeat(1,1fr);
     }
+    .games-banner-img{
+        flex-direction: column;
+
+    }
     .instantly-section{
         flex-direction: column;
-    }
-    .instantly-img{
-        width: 50%;
+        height: 100%;
     }
 }
