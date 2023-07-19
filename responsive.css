@@ -22,4 +22,8 @@
     .optional-img,.optional-text{
         width: 50%;
     }
+    .games-section{
+        flex-direction: column;
+        grid-template-columns: repeat(1,1fr);
+    }
 }
