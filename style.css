@@ -121,6 +121,58 @@ nav{
 }
 
 /************* play like banner section end  *************/
+/*********** We are gamer optional section start now *********/
+.optonal-section{
+    width: 1920px;
+    height: 600px;
+     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+.optional-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.optional-text h2{
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+.optional-text p{
+    width: 520px;
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.optional-btn-text{
+    text-align: right;
+}
+.optional-btn-text h4{
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px;
+}
+.optional-btn-text h3{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+}
+/*********** We are gamer optional section end *********/
 
 /********** Online Games Funny Videos start now **********/
 .games-section{

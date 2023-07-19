@@ -1,9 +1,11 @@
-@media screen and (max-width: 400px ) {
-    .banner-section{
+@media screen and (max-width: 400px) {
+    .nav-container{
+
         flex-direction: column;
+
     }
-    .banner-text,.banner-img{
-        width: 100%;
-        height: 600px;
+
+    .nav-text-container{
+       flex-direction: column;
     }
 }
