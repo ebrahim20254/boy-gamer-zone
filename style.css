@@ -4,16 +4,22 @@
     padding: 0px;
 }
 nav{
+    background-color: #4EC5F7;
+    margin-top: 20px;
+}
+    
+.nav-container{
     min-height: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-     margin: 0px 100px auto;
-     padding-top: 20px;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 .logo-container{
     display: flex;
     align-items: center;
+    gap: 20px;
 }
 .logo-container h3{
     text-align: center;
@@ -30,9 +36,24 @@ nav{
     width: 86.041px;
     height: 40px;
 }
+.nav-text-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
 .nav-text-container a{
     margin-right: 50px;
     text-decoration: none;
+    display: flex;
+    font-size: 18px;
+    color: #3C354F;
+}
+.follow-btn{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 10px 20px;
+    font-weight: 700px;
 }
 /************** nav section done  **************/
 
