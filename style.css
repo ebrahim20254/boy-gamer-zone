@@ -100,3 +100,212 @@ nav{
 }
 
 /************* play like banner section end  *************/
+
+/********** Online Games Funny Videos start now **********/
+.games-section{
+    margin-top: 100px;
+    width: 100%;
+    height: 600px;
+}
+.games-section h2{
+    text-align: center;
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.games-title{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.games-section p{
+    text-align: center;  
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.games-banner-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 50px;
+}
+
+.gamer-img p{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; 
+    width: 342px;
+}
+/********** Online Games Funny Videos end **************/
+
+/************** Play Instantly section start now **********/
+.instantly-section {
+    width: 100%;
+    height: 650px;
+    border: 2px solid salmon;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 100px;
+}
+.instantly-text h2{
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    width: 300px;
+}
+.instantly-text p{
+    width: 300px;
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 20px;
+}
+.instantly-img{
+    width: 50%;
+    height: 650px;
+} 
+.profile-img{
+    position: relative;
+    bottom: 200px;
+   padding-right: 50px;
+} 
+/*********** Play Instantly section end **********/
+
+
+/********* button section start now  **********/
+.button-section{
+     width: 100%;
+     height: 430px;
+}
+.box-btn{
+    padding: 15px 25px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.box-btn :hover{
+    background: blue;
+    color: red;
+    border: #F948B2;
+}
+.box-btn span{
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.button-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+/********** button section end  *********/
+
+/********** footer section start now ***********/
+footer{
+    width: 100%;
+    height: 636px;
+    background: #0B0223;
+    color: #FFFFFF;
+    padding: 100px;
+}
+.logo-footer{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+.logo-footer h3{
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.text-footer > ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 20px; */
+    gap: 40px;
+}
+.text-footer li{
+    list-style: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.footer-icon{
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+.last-footer-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.last-footer-text > ul {
+    display: flex;
+    gap: 40px;
+}
+.last-footer-text li{
+    list-style: none;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.logo-footer p{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 50px;
+}
+/********** footer section end  ***********/
