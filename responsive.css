@@ -28,10 +28,30 @@
     }
     .games-banner-img{
         flex-direction: column;
-
     }
-    .instantly-section{
+    .optional-container{
         flex-direction: column;
-        height: 100%;
+        width: 100%;
+        display: grid;
+        padding-left: 250px;
     }
-}
+    .optional-text p{
+        width: 520px;
+    
+    }
+
+    /* .instantly-section{
+        flex-direction: column-reverse;
+    } */
+    /* .profile-img{
+        flex-direction: column-reverse;
+    }
+    .instantly-img{
+        min-height: 650px;
+        width: 50%;
+    } */
+
+    /* .button-container{
+        display: grid;
+        /* grid-template-columns: repeat(5,1fr); */
+    }
